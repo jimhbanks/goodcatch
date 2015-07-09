@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-</head>
-<body>
-
-<% @fish.each do |stuff| %>
+<% @fishes.each do |fish| %>
+  <%=  %>
 <% end %>
-  
-</body>
-</html>
+
+<% fishname = [] %>
+
+<% JSON.parse(open("#{Rails.root}/db/data.json").read).each do |stuff| %>
+
+<% fishname << stuff['Seafood_Item'] %>
+<% end %>
+
+<%= select_tag "fishname", options_for_select(fishname) %>
