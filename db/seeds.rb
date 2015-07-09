@@ -10,7 +10,7 @@ Fish.destroy_all
 
 JSON.parse(open("#{Rails.root}/db/data.json").read).each do |stuff|
   binding.pry
- Fish.create(Seafood_display_name: stuff['Seafood_Item'], Mercury_Rank: stuff['Mercury_rank'], Omega_Level: stuff['Omega_Level'], Mercury_PPM: stuff['Mercury_PPM'], MBA_Rank: stuff['MBA_Rank'], Food_Chain: stuff['Food_Chain'])
+ 
 end
 
 # test = Nori.new
