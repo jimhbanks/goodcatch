@@ -48,7 +48,7 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Barramundi (U.S.)",
+                    "Seafood_Item": "Barramundi",
                     "Seafood_display_name": "Barramundi",
                     "Direct_URL": "#barramundi-us-farmed",
                     "MBA_Rank": "Best",
@@ -73,7 +73,7 @@
                 },
                 {
                     "Seafood_Item": {
-                        "__text": "\nBass, Striped\n\n\n",
+                        "__text": "Bass, Striped",
                         "__cdata": "\n<br><font size=\"2\">This refers to hybrid striped bass that is farmed.</font>\n"
                     },
                     "Seafood_display_name": "Bass, Striped",
@@ -195,7 +195,7 @@
                 },
                 {
                     "Seafood_Item": "Cod, Atlantic (Canada and U.S.)",
-                    "Seafood_display_name": "Cod, Atlantic (Canada, U.S.)",
+                    "Seafood_display_name": "Cod, Atlantic",
                     "Direct_URL": "#cod-atlantice-canada-and-us",
                     "MBA_Rank": "Avoid",
                     "Sustainability_Seafood_Box_Text": {
@@ -217,7 +217,7 @@
                 },
                 {
                     "Seafood_Item": "Cod, Atlantic (Imported)",
-                    "Seafood_display_name": "Cod, Atlantic (Imported)",
+                    "Seafood_display_name": "Cod",
                     "Direct_URL": "#cod-atlantic-imported",
                     "MBA_Rank": "Good",
                     "Sustainability_Seafood_Box_Text": {
@@ -239,7 +239,7 @@
                 },
                 {
                     "Seafood_Item": "Cod, Pacific (U.S. Non-Trawl)",
-                    "Seafood_display_name": "Cod, Pacific (U.S. Non-Trawl)",
+    
                     "Direct_URL": "#cod-pacific-us-bottom",
                     "MBA_Rank": "Best",
                     "Sustainability_Seafood_Box_Text": {
@@ -261,7 +261,7 @@
                 },
                 {
                     "Seafood_Item": "Cod, Pacific (U.S. Trawl)",
-                    "Seafood_display_name": "Cod, Pacific (U.S. Trawl)",
+                    "Seafood_display_name": "Cod, Pacific",
                     "Direct_URL": "#cod-pacific-us-trawled",
                     "MBA_Rank": "Good",
                     "Sustainability_Seafood_Box_Text": {
@@ -663,7 +663,7 @@
                 },
                 {
                     "Seafood_Item": "\nLobster, Spiny (Belize, Brazil, Honduras, Nicaragua)\n",
-                    "Seafood_display_name": "\nLobster, Spiny (Belize, Brazil, Honduras, Nicaragua)\n",
+                    "Seafood_display_name": "\nLobster, Spiny",
                     "Direct_URL": "",
                     "MBA_Rank": "Avoid",
                     "Sustainability_Seafood_Box_Text": {
@@ -971,7 +971,7 @@
                 },
                 {
                     "Seafood_Item": "\nSablefish/Black Cod (California, Oregon, Washington Wild Caught)\n",
-                    "Seafood_display_name": "Sablefish (CA, OR, WA)",
+                    "Seafood_display_name": "Sablefish (USA)",
                     "Direct_URL": "",
                     "MBA_Rank": "Good",
                     "Sustainability_Seafood_Box_Text": {

@@ -1,12 +1,21 @@
 <% @fishes.each do |fish| %>
   <%=  %>
 <% end %>
+<% fishname = [], mercuryrank = [], omegalevel = [] %>
+<% image = [] %>
 
-<% fishname = [] %>
-
+<!-- talks to the data.json file -->
 <% JSON.parse(open("#{Rails.root}/db/data.json").read).each do |stuff| %>
 
-<% fishname << stuff['Seafood_Item'] %>
+<!-- calls fish name -->
+<% fishname << stuff['Seafood_display_name'] %>
+<% mercuryrank << stuff['Mercury_Rank'] %>
+<% omegalevel << stuff['Omega_Level'] %>
+<!-- below shows image url, but not actual image (calls from data.json, not the iamge file, need to link these together) -->
+<% image << stuff['_imageurl'] %>
 <% end %>
-
+<!-- creates dropdown of al seeded fish -->
 <%= select_tag "fishname", options_for_select(fishname) %>
+<%= select_tag "mercuryrank", options_for_select(mercuryrank) %>
+<%= select_tag "omegalevel", options_for_select(omegalevel) %>
+
