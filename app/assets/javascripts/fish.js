@@ -10,8 +10,6 @@ var results = $('#results');
 // adding even listener to the the mba rank from data.json, which will change whe  the fish type is changed
 // fishSelect.on('change', getMba);
 
-
-
 function getFishes() {
   $.ajax({
     url: "/datas",
