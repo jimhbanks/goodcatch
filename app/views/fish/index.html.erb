@@ -38,17 +38,19 @@
 <h1>Fish Information Grabber</h1>
 
  
-  
+  <select id="fishname">
+  <%= select_tag "fishname", options_for_select(fishname) %>
+    <option value="default">-- Fish will go here --</option>
+  </select>
+   <button id="get-fishes">Get Fish Info!</button>
   <select id="mbarank">
     <option value="default">-- MBA will go here --</option>
   </select>
 
-   <button id="get-fishes">Get Fish Info!</button>
-   
   <select id="mercuryrank">
     <option value="default">-- Mercury Rank will go here --</option>
   </select> 
-<select id="omegalevel">
+  <select id="omegalevel">
     <option value="default">-- Omega will go here --</option>
   </select>
   <select id="foodchain">
