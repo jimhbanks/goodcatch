@@ -17,9 +17,17 @@ function getFishes(e) {
   .done(function(response){
     //emptys the fish everytime so it does not duplicate
     fishSelect.empty();
-
+    //empty regions array
   var regions = [];
+
+  $.each(response, function(index, item){
+    if($.inArray(item.fish, fishes) === -1 && item.fish.length >= 1) {
+      fishes.push(item.fish);
+      fishSelect.append('<option value="' + item.fish + '">-- MBA will go here --</option>')
+    }
   })
+  fishSelect.prepend('<option value="default">-- MBA will go here --</option>')
+  });
 }
 
 
