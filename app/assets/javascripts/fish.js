@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  console.log('line 2 hit');
+  console.log('fish.js responding');
 
-var getFishes = $('#get-fishes');
-var getMba = $('#MBA_Rank')
-var results = $('#results');
+// var getFishes = $('#get-fishes');
+// // var getMba = $('#MBA_Rank')
+// var results = $('#results');
 
 // adding an event listener ti get the fishes button on click
 // getFishesButton.on('click', getFishes);
@@ -24,6 +24,7 @@ function getFishes() {
 $(".fishname").on('change', function(){
     console.log('fishname hit');
  $.ajax({
+    
     url: "/datas",
     dataType: "JSON",
     success: function (data){
@@ -39,7 +40,7 @@ $(".fishname").on('change', function(){
 // function getFishes(e) {
 //   $.ajax({
 //     type: "GET",
-//     url: "app/db/data.json"
+//     url: "/datas"
 //   }) // ends once done
 //   .done(function(response){
 //     //emptys the fish everytime so it does not duplicate
