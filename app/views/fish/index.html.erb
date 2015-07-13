@@ -1,25 +1,14 @@
-<% @fishes.each do |fish| %>
-  <%=  %>
-<% end %>
-<% fishname = [] %><%mercuryrank = [] %><%omegalevel = [] %><%foodchain = [] %><% mbarank = [] %><% mercuryppm = [] %><% sustainabiltytext = [] %>
-<% image = [] %>
 
-<!-- talks to the data.json file -->
-<% JSON.parse(open("#{Rails.root}/db/data.json").read).each do |stuff| %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
 
-<%= Fish.all %>
-
-<!-- calls fish name -->
-<% fishname << stuff['Seafood_display_name'] %>
-<% mbarank << stuff['MBA_Rank'] %>
-<% omegalevel << stuff['Omega_Level'] %>
-<% mercuryrank << stuff['Mercury_Rank'] %>
-<% foodchain << stuff['Food_Chain'] %>
-<% mercuryppm << stuff['Mercury_PPM']%>
-<% sustainabiltytext << stuff['Sustainability_Seafood_Box_Text'] %>
-
-<!-- creates dropdown of all fish attr -->
-<h1>Fish Name</h1>
-<%= select_tag "fishname", options_for_select(fishname), { class: 'fishname' } %>
-<% end %>
- 
+  <%= select_tag "fishname", options_for_select(@fishname), { class: 'fishname' } %> 
+    <div id="fishinfo"></div>
+  
+</body>
+</html>

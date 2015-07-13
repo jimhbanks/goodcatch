@@ -10,51 +10,35 @@ $(document).ready(function() {
 // adding even listener to the the mba rank from data.json, which will change whe  the fish type is changed
 // fishSelect.on('change', getMba);
 
-function getFishes(index, value) {
-  $.ajax({
-    type: "GET",
-    url: "/datas",
-    dataType: "JSON",
-    success: function (data){
-      console.log(data);
-    var fish = [];
-    }
-  })
-  .done(function(response) {
-    var fish = response[0];
-    var fishTemplate = '<h1>' + fish.name + '</h1>'; 
-  })
+  function getFishes(index, value) {
+    var fish = $(this).val()
+    $.ajax({
+      type: "GET",
+      url: "/fish_data",
+      dataType: "JSON",
+      data: {fish: fish},
+      method: 'POST'
+    })
+    .done(function(response) {
+      var fishes = []; 
+      $('#fishinfo').empty();
+      // $.each(response, function(index, item) {
+      //   if ($.inArray(item.fish, fishes) === -1) {
+      //     fishes.push(item); 
+      //   }
+      // })
+    $.each(response, function(index, fish){
+      
+      console.log(fish)
+      $('#fishinfo').append('<h1>' + fish.Seafood_display_name + '</h1><h3>' + fish.MBA_Rank + '</h3>');
+    })
 
-  $.each(response, function(index, item) {
-    if ($.inArray(item.fish, fishes) === -1 && item.fish.length >= 1) {
-      fishes.push(item, fish);
-      fishSelect.append('<option value="' + item.fish + '">' + item.fish)
-    }
-  })
-  fishSelect.prepend()
-}
+      console.log(fishes, 'fishes');
+    })  
+  }
+  // click event
+  $(".fishname").on('change', getFishes);
 
-
-// click event
-$(".fishname").on('change', function(){
-    console.log('fishname hit');
- $.ajax({
-    type: 'GET',
-    url: "/datas",
-    dataType: "JSON",
-    success: function (data){
-      console.log(data);
-
-    }
-  })
-  getFishes()
-
-})
-
-
-// results.html()
-
-// end of document.ready
 });
 
 
