@@ -17,6 +17,7 @@ function getFishes(index, value) {
     dataType: "JSON",
     success: function (data){
       console.log(data);
+    var fish = [];
     }
   })
   .done(function(response) {
@@ -24,6 +25,13 @@ function getFishes(index, value) {
     var fishTemplate = '<h1>' + fish.name + '</h1>'; 
   })
 
+  $.each(response, function(index, item) {
+    if ($.inArray(item.fish, fishes) === -1 && item.fish.length >= 1) {
+      fishes.push(item, fish);
+      fishSelect.append('<option value="' + item.fish + '">' + item.fish)
+    }
+  })
+  fishSelect.prepend()
 }
 
 
