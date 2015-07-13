@@ -7,6 +7,8 @@
 <!-- talks to the data.json file -->
 <% JSON.parse(open("#{Rails.root}/db/data.json").read).each do |stuff| %>
 
+<%= Fish.all %>
+
 <!-- calls fish name -->
 <% fishname << stuff['Seafood_display_name'] %>
 <% mbarank << stuff['MBA_Rank'] %>
@@ -16,53 +18,8 @@
 <% mercuryppm << stuff['Mercury_PPM']%>
 <% sustainabiltytext << stuff['Sustainability_Seafood_Box_Text'] %>
 
-<!-- below shows image url, but not actual image (calls from data.json, not the iamge file, need to link these together) -->
-<% image << stuff['_imageurl'] %>
-<% end %>
 <!-- creates dropdown of all fish attr -->
 <h1>Fish Name</h1>
 <%= select_tag "fishname", options_for_select(fishname), { class: 'fishname' } %>
-<!-- <h1>Sustainabilty Rank</h1>
-<p class="mbarank"></p>
-<h1>Mercury Rank</h1>
-<%= select_tag "mercuryrank", options_for_select(mercuryrank) %>
-<h1>Omega Level</h1>
-<%= select_tag "omegalevel", options_for_select(omegalevel) %>
-<h1>Food Chain Rank</h1>
-<%= select_tag "foodchain", options_for_select(foodchain) %>
-<h1>Mercury PPM</h1>
-<%= select_tag "mercuryppm", options_for_select(mercuryppm) %>
-<h1>Sustainabilty Text</h1>
-<%= select_tag "sustainabiltytext", options_for_select(sustainabiltytext) %>
-
-<h1>Fish Information Grabber</h1>
-
+<% end %>
  
-  <select id="fishname">
-  <%= select_tag "fishname", options_for_select(fishname) %>
-    <option value="default">-- Fish will go here --</option>
-  </select>
-   <button id="get-fishes">Get Fish Info!</button>
-  <select id="mbarank">
-    <option value="default">-- MBA will go here --</option>
-  </select>
-
-  <select id="mercuryrank">
-    <option value="default">-- Mercury Rank will go here --</option>
-  </select> 
-  <select id="omegalevel">
-    <option value="default">-- Omega will go here --</option>
-  </select>
-  <select id="foodchain">
-    <option value="default">-- Foodchain will go here --</option>
-  </select>  
-  <select id="mercuryppm">
-    <option value="default">-- Mercury PPM will go here --</option>
-  </select> 
-  <div id="results"></div>
-
- -->
-
-
-
-
