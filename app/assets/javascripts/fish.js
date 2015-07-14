@@ -29,8 +29,8 @@ $(document).ready(function() {
       // })
     $.each(response, function(index, fish){
 
-      console.log(fish)
-      $('#fishinfo').append('<h1>' + fish.Seafood_display_name + '<h3>' + fish.MBA_Rank + '</h3>' + '<h3>' + fish.Mercury_Rank + '</h3>' + '<h3>' + fish.Omega_Level + '</h3>');
+      // console.log(fish)
+      $('#fishinfo').append('<h1>' + fish.Seafood_display_name + '<h2>' + fish.MBA_Rank + '</h2>' + '<h3>' + fish.Mercury_Rank + '</h3>' + '<h4>' + fish.Omega_Level + '</h4>'  + '<p1>' + fish.Description + '</p1>'+ '<p2>' + fish.Fact + '</p2>');
     })
 
 
@@ -41,6 +41,8 @@ $(document).ready(function() {
   }
   // click event
   $(".fishname").on('change', getFishes);
+
+
 
 });
 

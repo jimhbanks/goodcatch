@@ -2,6 +2,8 @@
                 {
                     "Seafood_Item": "Anchovy, European",
                     "Seafood_display_name": "Anchovy, European",
+                    "Description": "Fresh anchovies are an oily fish that look and taste similar to sardines. They vary in size and can be bought either fresh or cured. Cured anchovies were originally left whole and packed in salt, but now they tend to be boned, cleaned and preserved in salt or oil and sold in cans or jars.",
+                    "Fact": "Anchovies are naturally one of the foodstuffs most richly endowed with the so-called fifth taste, umami, which enhances the flavour of the other ingredients in certain recipes.",
                     "Direct_URL": "#anchovy-european",
                     "MBA_Rank": "Good",
                     "Sustainability_Seafood_Box_Text": {
@@ -98,33 +100,7 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
-                {
-                    "Seafood_Item": {
-                        "__text": "\nBass, Striped/Rockfish (U.S. Hook and Line)\n\n\n",
-                        "__cdata": "\n<br><font size=\"2\">This refers to wild striped bass.</font>\n"
-                    },
-                    "Seafood_display_name": "Bass, Striped/Rockfish",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Best",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species is considered a best choice by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/bass\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is abundant, well managed, and caught or farmed in ocean-friendly ways.\n"
-                    },
-                    "Food_Chain": "4.34",
-                    "Mercury_PPM": "0.295",
-                    "Mercury_Rank": "Low",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is low in mercury. You can consume a 6-oz. portion two or three times a week and still stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>.\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "1281",
-                    "Omega_Level": "Adequate",
-                    "Omega_Seafood_Box_Text": {
-                        "__cdata": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered adequate because two servings per week meets or exceeds the minimum recommended by nutrition experts (250 mg/day).\n"
-                    },
-                    "_imageurl": "images/fish/strippedbass.png",
-                    "_imagecredit": "Photograph by George Peters",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
+                
                 {
                     "Seafood_Item": "Bass, Black Sea(U.S. Mid-Atlantic)",
                     "Seafood_display_name": "Bass, Black Sea",
@@ -150,7 +126,7 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Catfish (U.S.)",
+                    "Seafood_Item": "Catfish",
                     "Seafood_display_name": "Catfish",
                     "Direct_URL": "#catfish-us-farmed",
                     "MBA_Rank": "Best",
@@ -193,30 +169,9 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
+                
                 {
-                    "Seafood_Item": "Cod, Atlantic (Canada and U.S.)",
-                    "Seafood_display_name": "Cod, Atlantic",
-                    "Direct_URL": "#cod-atlantice-canada-and-us",
-                    "MBA_Rank": "Avoid",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nCanadian and U.S. Atlantic Cod should be avoided for now, as recommended by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/cod\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is caught or farmed in ways that harm other marine life or the environment.\n"
-                    },
-                    "Food_Chain": "4.42",
-                    "Mercury_PPM": "0.07",
-                    "Mercury_Rank": "Low",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is low in mercury. You can consume a 6-oz. portion two or three times a week and still stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>.\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "313",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/atlanticcod.png",
-                    "_imagecredit": "Photograph by Helle M.",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "Cod, Atlantic (Imported)",
+                    "Seafood_Item": "Cod, Atlantic",
                     "Seafood_display_name": "Cod",
                     "Direct_URL": "#cod-atlantic-imported",
                     "MBA_Rank": "Good",
@@ -237,50 +192,7 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
-                {
-                    "Seafood_Item": "Cod, Pacific (U.S. Non-Trawl)",
-    
-                    "Direct_URL": "#cod-pacific-us-bottom",
-                    "MBA_Rank": "Best",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nU.S, non-trawled Pacific cod is considered a best choice by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/cod\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is abundant, well managed, and caught or farmed in ocean-friendly ways.\n"
-                    },
-                    "Food_Chain": "4.01",
-                    "Mercury_PPM": "0.144",
-                    "Mercury_Rank": "Moderate",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is moderate in mercury. You can consume one 6-oz. portion a week and stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "221",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/pacificcod.png",
-                    "_imagecredit": "Photograph courtesy U.S. Food and Drug Administration's Regulatory Fish Encyclopedia",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "Cod, Pacific (U.S. Trawl)",
-                    "Seafood_display_name": "Cod, Pacific",
-                    "Direct_URL": "#cod-pacific-us-trawled",
-                    "MBA_Rank": "Good",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nU.S. trawl Pacific cod is considered a good alternative by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/cod\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is an option, but there are concerns with how it's caught or farmed, or with the health of its habitat due to other human impacts.\n"
-                    },
-                    "Food_Chain": "4.01",
-                    "Mercury_PPM": "0.144",
-                    "Mercury_Rank": "Moderate",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is moderate in mercury. You can consume one 6-oz. portion a week and stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "221",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/pacificcod.png",
-                    "_imagecredit": "Photograph courtesy U.S. Food and Drug Administration's Regulatory Fish Encyclopedia",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
+                
                 {
                     "Seafood_Item": "Crab, Blue",
                     "Seafood_display_name": "Crab, Blue",
@@ -395,8 +307,8 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Crayfish/Crawfish (Farmed in China)",
-                    "Seafood_display_name": "Crawfish (China)",
+                    "Seafood_Item": "Crayfish",
+                    "Seafood_display_name": "Cray",
                     "Direct_URL": "#crayfish-crawfish-china-farmed",
                     "MBA_Rank": "Avoid",
                     "Sustainability_Seafood_Box_Text": {
@@ -417,7 +329,7 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Crayfish/Crawfish (Farmed in U.S.)",
+                    "Seafood_Item": "Crayfish/Crawfish (Farmed in UK)",
                     "Seafood_display_name": "Crawfish (U.S.)",
                     "Direct_URL": "#crayfish-crawfish-us",
                     "MBA_Rank": "Best",
@@ -461,7 +373,7 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Flounder (U.S.)",
+                    "Seafood_Item": "Flounder",
                     "Seafood_display_name": "Flounder",
                     "Direct_URL": "#flounders-canada-us",
                     "MBA_Rank": "Good",
@@ -483,7 +395,7 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Grouper (U.S. Atlantic)",
+                    "Seafood_Item": "Grouper",
                     "Seafood_display_name": "Grouper",
                     "Direct_URL": "#grouper-us-atlantic",
                     "MBA_Rank": "Avoid",
@@ -505,8 +417,8 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Grouper, Red (U.S. Gulf of Mexico)",
-                    "Seafood_display_name": "Grouper, Red",
+                    "Seafood_Item": "Red Grouper",
+                    "Seafood_display_name": "Red Grouper",
                     "Direct_URL": "",
                     "MBA_Rank": "Good",
                     "Sustainability_Seafood_Box_Text": {
@@ -527,7 +439,7 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Haddock (Georges Bank)",
+                    "Seafood_Item": "Haddock (UK)",
                     "Seafood_display_name": "Haddock (Georges Bank)",
                     "Direct_URL": "",
                     "MBA_Rank": "Good",
@@ -548,28 +460,7 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
-                {
-                    "Seafood_Item": "Haddock (Gulf of Maine)",
-                    "Seafood_display_name": "Haddock (Gulf of Maine)",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Avoid",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nHaddock from the Gulf of Maine should be avoided for now, as recommended by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/haddock\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is caught or farmed in ways that harm other marine life or the environment.\n"
-                    },
-                    "Food_Chain": "4.09",
-                    "Mercury_PPM": "0.164",
-                    "Mercury_Rank": "Moderate",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is moderate in mercury. You can consume one 6-oz. portion a week and stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "222",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/haddock.png",
-                    "_imagecredit": "Photograph by Frans Rombout",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
+                
                 {
                     "Seafood_Item": "Halibut, Atlantic",
                     "Seafood_display_name": "Halibut, Atlantic",
@@ -592,30 +483,9 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
+                
                 {
-                    "Seafood_Item": "Halibut, Pacific (U.S.)",
-                    "Seafood_display_name": "Halibut, Pacific",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Best",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species is considered a best choice by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/halibut\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is abundant, well managed, and caught or farmed in ocean-friendly ways.\n"
-                    },
-                    "Food_Chain": "4.13",
-                    "Mercury_PPM": "0.261",
-                    "Mercury_Rank": "Moderate",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is moderate in mercury. You can consume one 6-oz. portion a week and stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "330",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/halibut.png",
-                    "_imagecredit": "Image courtesy Glacier Bay National Park and Preserve",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "Herring, Atlantic (U.S.)",
+                    "Seafood_Item": "Herring, Atlantic",
                     "Seafood_display_name": "Herring",
                     "Direct_URL": "",
                     "MBA_Rank": "Good",
@@ -636,77 +506,9 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
+                
                 {
-                    "Seafood_Item": "Lobster (Bahamas and U.S.)",
-                    "Seafood_display_name": "Lobster",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Good",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species is considered a good alternative by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/lobster\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is an option, but there are concerns with how it's caught or farmed, or with the health of its habitat due to other human impacts.\n"
-                    },
-                    "Food_Chain": "3.7",
-                    "Mercury_PPM": "0.2",
-                    "Mercury_Rank": "Moderate",
-                    "Mercury_Standard_Text": {
-                        "__cdata": [
-                            "\nThis seafood is moderate in mercury. You can consume one 6-oz. portion a week and stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional\n",
-                            "\ninformation is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>\n"
-                        ]
-                    },
-                    "Omega_3_mg__EPA_DHA": "289",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/americanlobster.png",
-                    "_imagecredit": "Photograph by Mark Gillow",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "\nLobster, Spiny (Belize, Brazil, Honduras, Nicaragua)\n",
-                    "Seafood_display_name": "\nLobster, Spiny",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Avoid",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nSpiny lobster from Belize, Brazil, Honduras, and Nicaragua should be avoided for now, as recommended by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/lobster\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is caught or farmed in ways that harm other marine life or the environment.\n"
-                    },
-                    "Food_Chain": "2.7",
-                    "Mercury_PPM": "0.1",
-                    "Mercury_Rank": "Low",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is low in mercury. You can consume a 6-oz. portion two or three times a week and still stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>.\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "635",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/spinylobster.png",
-                    "_imagecredit": "Photograph by Ursula Alter",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "Lobster, Spiny (Mexico)",
-                    "Seafood_display_name": "Lobster, Spiny (Mexico)",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Best",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species is considered a best choice by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/lobster\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is abundant, well managed, and caught or farmed in ocean-friendly ways.\n"
-                    },
-                    "Food_Chain": "2.7",
-                    "Mercury_PPM": "0.1",
-                    "Mercury_Rank": "Low",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is low in mercury. You can consume a 6-oz. portion two or three times a week and still stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>.\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "636",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/spinylobster.png",
-                    "_imagecredit": "Photograph by Rusm",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "Mackerel, King (U.S.)",
+                    "Seafood_Item": "Mackerel, King",
                     "Seafood_display_name": "Mackerel, King",
                     "Direct_URL": "",
                     "MBA_Rank": "Best",
@@ -728,7 +530,7 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Mackerel, Spanish (U.S.)",
+                    "Seafood_Item": "Mackerel",
                     "Seafood_display_name": "Mackerel, Spanish",
                     "Direct_URL": "",
                     "MBA_Rank": "Best",
@@ -771,30 +573,9 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
+                
                 {
-                    "Seafood_Item": "Mahi Mahi (U.S.)",
-                    "Seafood_display_name": "Mahi Mahi (U.S.)",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Good",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species is considered a good alternative by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/mahi-mahi\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is an option, but there are concerns with how it's caught or farmed, or with the health of its habitat due to other human impacts.\n"
-                    },
-                    "Food_Chain": "4.4",
-                    "Mercury_PPM": "N/A",
-                    "Mercury_Rank": "N/A",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThere is currently no mercury data available for this seafood item.\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "184",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/mahimahi.png",
-                    "_imagecredit": "Illustration by Diane Rome Peebles",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "Monkfish (U.S.)",
+                    "Seafood_Item": "Monkfish",
                     "Seafood_display_name": "Monkfish",
                     "Direct_URL": "",
                     "MBA_Rank": "Good",
@@ -903,28 +684,7 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
-                {
-                    "Seafood_Item": "Pangasius/Basa/Swai",
-                    "Seafood_display_name": "Pangasius / Basa / Swai",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Good",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species is considered a good alternative by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/detail/228/swai-farmed-imported-pangasius-hypophthalmus\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is an option, but there are concerns with how it's caught or farmed, or with the health of its habitat due to other human impacts.\n"
-                    },
-                    "Food_Chain": "3.4",
-                    "Mercury_PPM": "N/A",
-                    "Mercury_Rank": "N/A",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThere is currently no mercury data available for this seafood item.\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "151",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day). Based on USDA data for catfish (NOAA).\n",
-                    "_imageurl": "images/fish/pangasius.png",
-                    "_imagecredit": "Photograph by Ian G. Baird",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
+                
                 {
                     "Seafood_Item": "Pollock (U.S.)",
                     "Seafood_display_name": "Pollock",
@@ -969,28 +729,7 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
-                {
-                    "Seafood_Item": "\nSablefish/Black Cod (California, Oregon, Washington Wild Caught)\n",
-                    "Seafood_display_name": "Sablefish (USA)",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Good",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species is considered a good alternative by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/sablefish\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is an option, but there are concerns with how it's caught or farmed, or with the health of its habitat due to other human impacts.\n"
-                    },
-                    "Food_Chain": "3.83",
-                    "Mercury_PPM": "0.243",
-                    "Mercury_Rank": "Moderate",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is moderate in mercury. You can consume one 6-oz. portion a week and stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "2372",
-                    "Omega_Level": "High",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered high because one serving per week meets or exceeds the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/sablefish.png",
-                    "_imagecredit": "Photograph courtesy Oregon Department of Fish and Wildlife",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
+                
                 {
                     "Seafood_Item": "Salmon (Alaska)",
                     "Seafood_display_name": "Salmon (Alaska)",
@@ -1016,28 +755,7 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
-                {
-                    "Seafood_Item": "\nSalmon (California, Oregon, Washington Wild Caught)\n",
-                    "Seafood_display_name": "Salmon (CA, OR, WA Wild)",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Good",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species is considered a good alternative by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/salmon\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is an option, but there are concerns with how it's caught or farmed, or with the health of its habitat due to other human impacts.\n"
-                    },
-                    "Food_Chain": "3.95",
-                    "Mercury_PPM": "0.048",
-                    "Mercury_Rank": "Low",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is low in mercury. You can consume a 6-oz. portion two or three times a week and still stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>.\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "3319",
-                    "Omega_Level": "High",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered high because one serving per week meets or exceeds the minimum recommended by nutrition experts (250 mg/day). Omega-3 content varies by species; chinook have the highest content (3319 mg) and pink the lowest (875 mg).\n",
-                    "_imageurl": "images/fish/chumsalmon.png",
-                    "_imagecredit": "Photograph courtesy U.S. Food and Drug Administration's Regulatory Fish Encyclopedia",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
+                
                 {
                     "Seafood_Item": "Salmon, Atlantic (Farmed)",
                     "Seafood_display_name": "Salmon, Atlantic",
@@ -1061,8 +779,8 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Sardine, Pacific (Canada and U.S.)",
-                    "Seafood_display_name": "Sardine, Pacific",
+                    "Seafood_Item": "Sardine",
+                    "Seafood_display_name": "Sardine",
                     "Direct_URL": "",
                     "MBA_Rank": "Best",
                     "Sustainability_Seafood_Box_Text": {
@@ -1149,8 +867,8 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Shrimp (Canada, U.S.)",
-                    "Seafood_display_name": "Shrimp (Canada, U.S.)",
+                    "Seafood_Item": "Prawn (British Isles)",
+                    "Seafood_display_name": "Prawn (British Isles)",
                     "Direct_URL": "",
                     "MBA_Rank": "Good",
                     "Sustainability_Seafood_Box_Text": {
@@ -1170,55 +888,10 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
+                
+                
                 {
-                    "Seafood_Item": "Shrimp (Imported Farmed)",
-                    "Seafood_display_name": "Shrimp (Imported)",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Avoid",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species should be avoided for now, as recommended by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/shrimp\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is caught or farmed in ways that harm other marine life or the environment.\n"
-                    },
-                    "Food_Chain": "2.7",
-                    "Mercury_PPM": "0.053",
-                    "Mercury_Rank": "Low",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is low in mercury. You can consume a 6-oz. portion two or three times a week and still stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>.\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "104",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/shrimp.png",
-                    "_imagecredit": "Photograph by Robert Lauth courtesy NOAA Fisheries/Alaska Fisheries Science Center",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "Shrimp, Pink (Oregon)",
-                    "Seafood_display_name": "Shrimp, Pink",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Best",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species is considered a best choice by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/shrimp\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is abundant, well managed, and caught or farmed in ocean-friendly ways.\n"
-                    },
-                    "Food_Chain": "3.24",
-                    "Mercury_PPM": "0.083",
-                    "Mercury_Rank": "Low",
-                    "Mercury_Standard_Text": {
-                        "__cdata": [
-                            "\nThis seafood is low in mercury. You can consume a 6-oz. portion two or three times a week and still stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose se\n",
-                            "\nafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research & Outreach</a>.\n"
-                        ]
-                    },
-                    "Omega_3_mg__EPA_DHA": "104",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/shrimp.png",
-                    "_imagecredit": "Photograph by Robert Lauth courtesy NOAA Fisheries/Alaska Fisheries Science Center",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "Skate (U.S. Atlantic)",
+                    "Seafood_Item": "Skate",
                     "Seafood_display_name": "Skate",
                     "Direct_URL": "",
                     "MBA_Rank": "Avoid",
@@ -1240,8 +913,8 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Snapper, Red (U.S.)",
-                    "Seafood_display_name": "Snapper, Red",
+                    "Seafood_Item": "Red Snapper",
+                    "Seafood_display_name": "Red Snapper",
                     "Direct_URL": "",
                     "MBA_Rank": "Good",
                     "Sustainability_Seafood_Box_Text": {
@@ -1262,7 +935,7 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Sole (U.S.)",
+                    "Seafood_Item": "Sole",
                     "Seafood_display_name": "Sole",
                     "Direct_URL": "",
                     "MBA_Rank": "Good",
@@ -1283,31 +956,10 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
+               
                 {
-                    "Seafood_Item": "Squid (Imported)",
-                    "Seafood_display_name": "Squid (Imported)",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Avoid",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species should be avoided for now, as recommended by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/squid\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is caught or farmed in ways that harm other marine life or the environment.\n"
-                    },
-                    "Food_Chain": "3.8",
-                    "Mercury_PPM": "0.044",
-                    "Mercury_Rank": "Low",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is low in mercury. You can consume a 6-oz. portion two or three times a week and still stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>.\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "829",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/squid.png",
-                    "_imagecredit": "Image courtesy NOAA Fisheries Northeast Fisheries Science Center",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "Squid (U.S.)",
-                    "Seafood_display_name": "Squid (U.S.)",
+                    "Seafood_Item": "Squid",
+                    "Seafood_display_name": "Squid",
                     "Direct_URL": "",
                     "MBA_Rank": "Good",
                     "Sustainability_Seafood_Box_Text": {
@@ -1331,8 +983,8 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Swordfish (Imported)",
-                    "Seafood_display_name": "Swordfish (Imported)",
+                    "Seafood_Item": "Swordfish",
+                    "Seafood_display_name": "Swordfish",
                     "Direct_URL": "",
                     "MBA_Rank": "Avoid",
                     "Sustainability_Seafood_Box_Text": {
@@ -1354,33 +1006,10 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
+                
                 {
-                    "Seafood_Item": "Swordfish (U.S.)",
-                    "Seafood_display_name": "Swordfish (U.S.)",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Good",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species is considered a good alternative by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/swordfish\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is an option, but there are concerns with how it's caught or farmed, or with the health of its habitat due to other human impacts.\n"
-                    },
-                    "Food_Chain": "4.49",
-                    "Mercury_PPM": "0.893",
-                    "Mercury_Rank": "High",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is high in mercury and consumption of it should be limited. Individuals who eat seafood more than two or three times per week, or are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>.\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "1282",
-                    "Omega_Level": "Adequate",
-                    "Omega_Seafood_Box_Text": {
-                        "__cdata": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered adequate because two servings per week meets or exceeds the minimum recommended by nutrition experts (250 mg/day).\n"
-                    },
-                    "_imageurl": "images/fish/swordfish.png",
-                    "_imagecredit": "Photograph by Luis Carlos Torres",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "Tilapia (Ecuador and U.S.)",
-                    "Seafood_display_name": "Tilapia (Ecuador, U.S.)",
+                    "Seafood_Item": "Tilapia",
+                    "Seafood_display_name": "Tilapia",
                     "Direct_URL": "",
                     "MBA_Rank": "Good",
                     "Sustainability_Seafood_Box_Text": {
@@ -1400,31 +1029,10 @@
                     "_heart": "false",
                     "_expecting": "true"
                 },
+                
                 {
-                    "Seafood_Item": "Tilapia (Ecuador and U.S. Farmed)",
-                    "Seafood_display_name": "Tilapia (Ecuador, U.S. Farmed)",
-                    "Direct_URL": "",
-                    "MBA_Rank": "Best",
-                    "Sustainability_Seafood_Box_Text": {
-                        "__cdata": "\nThis species is considered a best choice by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/groups/tilapia\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is abundant, well managed, and caught or farmed in ocean-friendly ways.\n"
-                    },
-                    "Food_Chain": "2.01",
-                    "Mercury_PPM": "0.019",
-                    "Mercury_Rank": "Low",
-                    "Mercury_Standard_Text": {
-                        "__cdata": "\nThis seafood is low in mercury. You can consume a 6-oz. portion two or three times a week and still stay under the <a href=\"http://www.epa.gov/hg/exposure.htm\" target=\"_blank\">EPA's reference dose for mercury</a>. Individuals who are pregnant, nursing, or feeding a young child should choose seafood low in mercury. Additional information is available from <a href=\"http://www.stonybrook.edu/commcms/gelfond/fish/advice.html\" target=\"_blank\">Stony Brook University's Gelfond Fund for Mercury Research &amp; Outreach</a>.\n"
-                    },
-                    "Omega_3_mg__EPA_DHA": "156",
-                    "Omega_Level": "Low",
-                    "Omega_Seafood_Box_Text": "\nMilligrams per 6-oz. serving. The level of omega-3 fatty acids for this seafood is considered low because you need to eat more than two servings per week to meet the minimum recommended by nutrition experts (250 mg/day).\n",
-                    "_imageurl": "images/fish/tilapia.png",
-                    "_imagecredit": "Photograph by Floortje",
-                    "_heart": "false",
-                    "_expecting": "true"
-                },
-                {
-                    "Seafood_Item": "Trout, Rainbow (U.S. Farmed)",
-                    "Seafood_display_name": "Trout, Rainbow",
+                    "Seafood_Item": "Rainbow Trout",
+                    "Seafood_display_name": "Rainbow Trout",
                     "Direct_URL": "",
                     "MBA_Rank": "Best",
                     "Sustainability_Seafood_Box_Text": {
