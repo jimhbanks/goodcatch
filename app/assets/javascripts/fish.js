@@ -28,10 +28,13 @@ $(document).ready(function() {
       //   }
       // })
     $.each(response, function(index, fish){
-      
+
       console.log(fish)
-      $('#fishinfo').append('<h1>' + fish.Seafood_display_name + '</h1><h3>' + fish.MBA_Rank + '</h3>');
+      $('#fishinfo').append('<h1>' + fish.Seafood_display_name + '<h3>' + fish.MBA_Rank + '</h3>' + '<h3>' + fish.Mercury_Rank + '</h3>' + '<h3>' + fish.Omega_Level + '</h3>');
     })
+
+
+
 
       console.log(fishes, 'fishes');
     })  
