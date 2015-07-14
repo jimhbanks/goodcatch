@@ -1,7 +1,7 @@
 [
                 {
-                    "Seafood_Item": "Anchovy, European",
-                    "Seafood_display_name": "Anchovy, European",
+                    "Seafood_Item": "Anchovie",
+                    "Seafood_display_name": "Anchovie",
                     "Description": "Fresh anchovies are an oily fish that look and taste similar to sardines. They vary in size and can be bought either fresh or cured. Cured anchovies were originally left whole and packed in salt, but now they tend to be boned, cleaned and preserved in salt or oil and sold in cans or jars.",
                     "Fact": "Anchovies are naturally one of the foodstuffs most richly endowed with the so-called fifth taste, umami, which enhances the flavour of the other ingredients in certain recipes.",
                     "Direct_URL": "#anchovy-european",
@@ -26,16 +26,18 @@
                     "_expecting": "true"
                 },
                 {
-                    "Seafood_Item": "Arctic Char (Farmed)",
-                    "Seafood_display_name": "Arctic Char",
+                    "Seafood_Item": "arcticchar",
+                    "Seafood_display_name": "Arctic Char/Sea Trout",
                     "Direct_URL": "#arctic-char-farmed",
+                    "Description": "Commercial Arctic char typically weigh between 2 and 10 lb (1 and 4.5 kg). The flesh is fine flaked and medium firm. The colour is between light pink and deep red, and the taste is like something between trout and salmon",
+                    "Fact": "The biggest char farmer in Canada, which still produces only about 175 metric tons a year after being in operation more than 30 years",
                     "MBA_Rank": "Best",
                     "Sustainability_Seafood_Box_Text": {
                         "__cdata": "\nThis species is considered a best choice by <a href=\"http://www.seafoodwatch.org/seafood-recommendations/detail/193/arctic-char-farmed-in-recirculating-systems-us-canada-norway-iceland-salvelinus-alpinus\" target=\"_blank\">Monterey Bay Aquarium's Seafood Watch</a>. It is abundant, well managed, and caught or farmed in ocean-friendly ways.\n"
                     },
                     "Food_Chain": "4.26",
                     "Mercury_PPM": "N/A",
-                    "Mercury_Rank": "N/A",
+                    "Mercury_Rank": "Low",
                     "Mercury_Standard_Text": {
                         "__cdata": "\nThere is currently no mercury data available for this seafood item.\n"
                     },
